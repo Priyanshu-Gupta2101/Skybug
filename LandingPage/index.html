@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>DAM</title>
+  </head>
+  <body
+    class="flex flex-col bg-gradient-to-r from-black via-indigo-600 to-black dark:bg-gray-900 bg-pattern"
+  >
+    <header class="px-4 lg:px-6 h-16 flex items-center">
+      <a class="flex items-center justify-center" href="#">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-6 w-6 text-white"
+        >
+          <circle cx="12" cy="12" r="8"></circle>
+          <line x1="3" x2="6" y1="3" y2="6"></line>
+          <line x1="21" x2="18" y1="3" y2="6"></line>
+          <line x1="3" x2="6" y1="21" y2="18"></line>
+          <line x1="21" x2="18" y1="21" y2="18"></line>
+        </svg>
+        <span class="ml-2 text-lg font-semibold text-white"
+          >Decentralized Asset Management</span
+        >
+      </a>
+      <nav class="ml-auto flex gap-4 sm:gap-6">
+        <a
+          class="text-sm font-medium text-white hover:underline dark:text-gray-400"
+          href="#about"
+          >About</a
+        >
+        <a
+          class="text-sm font-medium text-white hover:underline dark:text-gray-400"
+          href="#features"
+          >Features</a
+        >
+        <a
+          class="text-sm font-medium text-white hover:underline dark:text-gray-400"
+          href="#pricing"
+          >Pricing</a
+        >
+        <a
+          class="text-sm font-medium text-white hover:underline dark:text-gray-400"
+          href="#newsletter"
+          >Contact</a
+        >
+      </nav>
+    </header>
+    <main class="flex-1">
+      <section
+        id="about"
+        class="w-full pt-12 md:pt-24 lg:pt-32 bg-gradient-to-r from-black via-indigo-600 to-black"
+      >
+        <div class="px-4 md:px-6 space-y-10 xl:space-y-16">
+          <div
+            class="grid mx-20 items-center justify-center gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16"
+          >
+            <div>
+              <h1
+                class="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-white"
+              >
+                Secure and Decentralized Asset Management
+              </h1>
+              <p class="mx-auto max-w-[700px] text-white md:text-xl">
+                Experience the future of asset management. Secure, transparent,
+                and decentralized.
+              </p>
+              <div class="space-x-4 mt-4">
+                <a
+                  class="inline-flex h-9 items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+                  href="#"
+                >
+                  Learn More
+                </a>
+                <a
+                  class="inline-flex h-9 items-center justify-center bg-indigo-600 text-white rounded-md px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+                  href="#"
+                >
+                  Sign Up
+                </a>
+              </div>
+            </div>
+            <div>
+              <img
+                src="/image.png"
+                alt="Finance"
+                class="mx-auto aspect-[5/3] overflow-hidden rounded-xl object-cover"
+                width="500"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="features"
+        class="w-full flex flex-row items-center justify-center md:py-24 lg:py-32 bg-gradient-to-r from-black via-indigo-600 to-black"
+      >
+        <div class="container space-y-12 px-4 md:px-6">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center"
+          >
+            <div class="space-y-2">
+              <h2
+                class="text-3xl font-bold tracking-tighter sm:text-5xl text-white"
+              >
+                Key Features
+              </h2>
+              <p
+                class="max-w-[900px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
+              >
+                Our platform provides a range of features designed to help you
+                manage your assets securely and efficiently.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3"
+          >
+            <div class="grid gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 text-white"
+              >
+                <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              <h3 class="text-lg font-bold text-white">Secure Asset Storage</h3>
+              <p class="text-sm text-white">
+                We use state-of-the-art encryption to ensure your assets are
+                always secure.
+              </p>
+            </div>
+            <div class="grid gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 text-white"
+              >
+                <path d="M12 12h0"></path>
+                <path
+                  d="M7.5 4.2c-.3-.5-.9-.7-1.3-.4C3.9 5.5 2.3 8.1 2 11c-.1.5.4 1 1 1h5c0-1.5.8-2.8 2-3.4-1.1-1.9-2-3.5-2.5-4.4z"
+                ></path>
+                <path
+                  d="M21 12c.6 0 1-.4 1-1-.3-2.9-1.8-5.5-4.1-7.1-.4-.3-1.1-.2-1.3.3-.6.9-1.5 2.5-2.6 4.3 1.2.7 2 2 2 3.5h5z"
+                ></path>
+                <path
+                  d="M7.5 19.8c-.3.5-.1 1.1.4 1.3 2.6 1.2 5.6 1.2 8.2 0 .5-.2.7-.8.4-1.3-.5-.9-1.4-2.5-2.5-4.3-1.2.7-2.8.7-4 0-1.1 1.8-2 3.4-2.5 4.3z"
+                ></path>
+              </svg>
+              <h3 class="text-lg font-bold text-white">
+                Risk Assessment Tools
+              </h3>
+              <p class="text-sm text-white">
+                Our platform provides tools to help you assess and manage your
+                risk.
+              </p>
+            </div>
+            <div class="grid gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 text-white"
+              >
+                <path
+                  d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z"
+                ></path>
+                <path d="m14.5 12.5 2-2"></path>
+                <path d="m11.5 9.5 2-2"></path>
+                <path d="m8.5 6.5 2-2"></path>
+                <path d="m17.5 15.5 2-2"></path>
+              </svg>
+              <h3 class="text-lg font-bold text-white">
+                Decentralized Governance
+              </h3>
+              <p class="text-sm text-white">
+                Our platform is governed by the community, ensuring transparency
+                and fairness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id=""
+        class="w-full flex flex-row items-center justify-center py-12 md:py-24 lg:py-32 bg-gradient-to-r from-black via-indigo-600 to-black dark:bg-gray-800"
+      >
+        <div
+          class="container grid items-center justify-center gap-4 px-4 text-center md:px-6"
+        >
+          <div class="space-y-3">
+            <h2
+              class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white"
+            >
+              Benefits of Using Our Platform
+            </h2>
+            <p
+              class="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
+            >
+              Our platform provides numerous benefits to help you manage your
+              assets more effectively.
+            </p>
+          </div>
+          <div
+            class="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3"
+          >
+            <div class="grid gap-1">
+              <h3 class="text-lg font-bold text-white">
+                Increased Transparency
+              </h3>
+              <p class="text-sm text-white">
+                Our platform provides full transparency, allowing you to track
+                your assets in real-time.
+              </p>
+            </div>
+            <div class="grid gap-1">
+              <h3 class="text-lg font-bold text-white">
+                Reduced Counterparty Risk
+              </h3>
+              <p class="text-sm text-white">
+                By using a decentralized platform, you can significantly reduce
+                your counterparty risk.
+              </p>
+            </div>
+            <div class="grid gap-1">
+              <h3 class="text-lg font-bold text-white">Improved Liquidity</h3>
+              <p class="text-sm text-white">
+                Our platform provides improved liquidity, making it easier for
+                you to buy and sell assets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="pricing"
+        class="w-full flex flex-row items-center justify-center py-12 md:py-24 lg:py-32 bg-gradient-to-r from-black via-indigo-600 to-black"
+      >
+        <div class="container space-y-12 px-4 md:px-6">
+          <div
+            class="flex flex-col items-center justify-center space-y-4 text-center"
+          >
+            <div class="space-y-2">
+              <h2
+                class="text-3xl font-bold tracking-tighter sm:text-5xl text-white"
+              >
+                Pricing
+              </h2>
+              <p
+                class="max-w-[900px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
+              >
+                Choose the plan that suits your needs. Upgrade, downgrade, or
+                cancel anytime.
+              </p>
+            </div>
+          </div>
+          <div
+            class="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3"
+          >
+            <div class="grid gap-4 bg-white rounded-lg p-6">
+              <h3 class="text-lg font-bold text-black">Basic</h3>
+              <p class="text-sm text-gray-500">
+                For individuals looking to manage their assets
+              </p>
+              <div class="text-4xl font-bold text-black">$10/mo</div>
+              <ul class="list-disc list-inside text-sm text-gray-500">
+                <li>Secure Asset Storage</li>
+                <li>Risk Assessment Tools</li>
+                <li>24/7 Support</li>
+              </ul>
+              <a
+                class="inline-flex h-9 items-center justify-center rounded-md bg-black text-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-black"
+                href="#"
+              >
+                Sign Up
+              </a>
+            </div>
+            <div class="grid gap-4 bg-white rounded-lg p-6">
+              <h3 class="text-lg font-bold text-black">Pro</h3>
+              <p class="text-sm text-gray-500">For businesses and teams</p>
+              <div class="text-4xl font-bold text-black">$30/mo</div>
+              <ul class="list-disc list-inside text-sm text-gray-500">
+                <li>Secure Asset Storage</li>
+                <li>Risk Assessment Tools</li>
+                <li>Decentralized Governance</li>
+                <li>24/7 Support</li>
+              </ul>
+              <a
+                class="inline-flex h-9 items-center justify-center rounded-md bg-black text-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-black"
+                href="#"
+              >
+                Sign Up
+              </a>
+            </div>
+            <div class="grid gap-4 bg-white rounded-lg p-6">
+              <h3 class="text-lg font-bold text-black">Enterprise</h3>
+              <p class="text-sm text-gray-500">
+                For large organizations and high-volume users
+              </p>
+              <div class="text-4xl font-bold text-black">Contact Us</div>
+              <ul class="list-disc list-inside text-sm text-gray-500">
+                <li>Secure Asset Storage</li>
+                <li>Risk Assessment Tools</li>
+                <li>Decentralized Governance</li>
+                <li>Dedicated Account Manager</li>
+                <li>24/7 Support</li>
+              </ul>
+              <a
+                class="inline-flex h-9 items-center justify-center rounded-md bg-black text-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-black"
+                href="#"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="testimonial"
+        class="w-full flex flex-row items-center justify-center py-12 md:py-24 lg:py-32 bg-gradient-to-r from-black via-indigo-600 to-black"
+      >
+        <div
+          class="container grid items-center justify-center gap-4 px-4 text-center md:px-6"
+        >
+          <div class="space-y-3">
+            <h2
+              class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white"
+            >
+              Testimonials
+            </h2>
+            <p
+              class="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
+            >
+              Don't just take our word for it. Hear what our users have to say.
+            </p>
+          </div>
+          <div
+            class="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3"
+          >
+            <div class="grid gap-1">
+              <blockquote
+                class="text-lg font-semibold leading-snug lg:text-xl lg:leading-normal xl:text-2xl text-white"
+              >
+                "The platform is intuitive and easy to use. I feel much more
+                confident managing my assets now."
+              </blockquote>
+              <div>
+                <div class="font-semibold text-white">John Doe</div>
+                <div class="text-sm text-white">CEO, Acme Inc</div>
+              </div>
+            </div>
+            <div class="grid gap-1">
+              <blockquote
+                class="text-lg font-semibold leading-snug lg:text-xl lg:leading-normal xl:text-2xl text-white"
+              >
+                "I love the transparency and security features. It's a game
+                changer for asset management."
+              </blockquote>
+              <div>
+                <div class="font-semibold text-white">Jane Smith</div>
+                <div class="text-sm text-white">CFO, Beta Corp</div>
+              </div>
+            </div>
+            <div class="grid gap-1">
+              <blockquote
+                class="text-lg font-semibold leading-snug lg:text-xl lg:leading-normal xl:text-2xl text-white"
+              >
+                "The risk assessment tools are incredibly helpful. I can't
+                imagine managing my assets without them."
+              </blockquote>
+              <div>
+                <div class="font-semibold text-white">Alice Johnson</div>
+                <div class="text-sm text-white">Investor, Gamma Ventures</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="newsletter"
+        class="w-full flex flex-row items-center justify-center py-12 md:py-24 lg:py-32 bg-gradient-to-r from-black via-indigo-600 to-black"
+      >
+        <div
+          class="container grid items-center justify-center gap-4 px-4 text-center md:px-6"
+        >
+          <div class="space-y-3">
+            <h2
+              class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white"
+            >
+              Join Our Newsletter
+            </h2>
+            <p
+              class="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
+            >
+              Stay updated with the latest news and updates from us. Enter your
+              email below.
+            </p>
+          </div>
+          <div class="mx-auto grid max-w-md items-start gap-8">
+            <div class="grid gap-4 bg-white rounded-lg p-6">
+              <input
+                placeholder="Your email address"
+                class="border border-gray-300 rounded-md px-4 py-2 text-sm text-gray-900 focus:outline-none focus:border-black"
+                type="email"
+              />
+              <button
+                class="inline-flex h-9 items-center justify-center rounded-md bg-black text-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-black"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-white"
+    >
+      <p class="text-xs text-white">
+        © Decentralized Asset Management. All rights reserved.
+      </p>
+      <nav class="sm:ml-auto flex gap-4 sm:gap-6">
+        <a
+          class="text-xs hover:underline underline-offset-4 text-white"
+          href="#"
+          >Terms of Service</a
+        >
+        <a
+          class="text-xs hover:underline underline-offset-4 text-white"
+          href="#"
+          >Privacy</a
+        >
+        <a
+          class="text-xs hover:underline underline-offset-4 text-white"
+          href="#"
+          >Contact</a
+        >
+      </nav>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+              behavior: "smooth",
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
