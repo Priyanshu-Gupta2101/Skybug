@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-image">
+    <div class="flex flex-col items-center w-full">
+      <div class="bg-[#2B2B2B] w-full h-16 flex items-center px-4 md:px-6">
+        <a class="flex items-center justify-center" href="#" rel="ugc">
+          <img
+            src="/assets/PG.png"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-32 w-32 text-green-500 pt-3"
+          />
+          <span class="sr-only">Acme Inc</span>
+        </a>
+        <form class="flex-1 mx-auto sm:flex-initial">
+          <div class="relative"></div>
+        </form>
+        <nav>
+          <button
+            onclick="window.location.href='https://drive.google.com/file/d/190HeLhma05AKkxQd6rL8NsYU-KklZv2G/view?usp=sharing';"
+            class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 ml-auto bg-gradient-to-r from-green-400 via-blue-500 to-purple-500"
+          >
+            Resume
+          </button>
+        </nav>
+      </div>
+      <section
+        class="flex min-h-[calc(100vh_-_theme(spacing.16))] flex-col gap-4 p-4 md:gap-8 md:p-10 text-white"
+      >
+        <h1 class="text-right text-3xl md:text-4xl lg:text-6xl mb-7 heading">
+          featured projects
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://urban-hides-client.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/urbanhides.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">Urbanhides</h3>
+              <p class="leading-relaxed">A leather ecommerce platform</p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  NextJS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Tailwind CSS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  NodeJS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://nfc-c3-ke-maharathi.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/wealthwise.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">WealthWise</h3>
+              <p class="leading-relaxed">
+                A platform to encourage learning banking for underpriviledged
+                community
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  MERN
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Tailwind CSS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://github.com/Priyanshu-Gupta2101/hacksolstice_hackathon"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/mindspace.jpeg"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">MindSpace</h3>
+              <p class="leading-relaxed">
+                A mental health care and support website
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Django
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  HTML
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  CSS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  JS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://github.com/Priyanshu-Gupta2101/Movie-Recommender"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/filmlane.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">
+                Filmlane: Movie Recommender
+              </h3>
+              <p class="leading-relaxed">
+                A website recommending movies using bag of words and cosine
+                similarity
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Django
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  HTML
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  CSS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  JS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://github.com/Priyanshu-Gupta2101/Dex"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/dex.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">
+                Dex: Hand Gesture Recognition for Online Meetings
+              </h3>
+              <p class="leading-relaxed">
+                Dex is a system that leverages hand gesture recognition to
+                enhance the user experience during online meetings, such as Zoom
+                or Google Meet. With Dex, users can express reactions and
+                interact in a more dynamic way by using hand gestures.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Django
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  OBS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://github.com/Priyanshu-Gupta2101/Movie-Recommender"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/healthista.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">Healthista</h3>
+              <p class="leading-relaxed">
+                Healthista is a hospital check-in system that utilizes face ID
+                recognition for a seamless and secure check-in process. Patients
+                can check in by simply using their face, providing a convenient
+                and contactless experience.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Django
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  HTML
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  CSS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  JS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://github.com/Priyanshu-Gupta2101/Langchain_custom_data-chatbot"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/chatbot.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-96 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">Langchain chatbot</h3>
+              <p class="leading-relaxed">
+                A simple conversational agent built with Flask and LangChain.
+                The chatbot provides a RESTful API for predicting answers based
+                on user input and predefined context using LangChain's powerful
+                language models.
+              </p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Flask
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  HTML
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  CSS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  JS
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card bg-black text-white break-inside-avoid border-2 border-white rounded overflow-hidden relative"
+          >
+            <a
+              href="https://vercel.com/priyanshu-gupta2101/tasks-27u4/HrWidR9e2Ws2oAUBn29kFvA38NNz"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-solid fa-arrow-right arrow"></i
+            ></a>
+            <i class="fa-regular fa-arrow-up-right absolute top-2 right-2"></i>
+            <img
+              src="/assets/ui.png"
+              alt=""
+              class="transition-transform duration-300 transform scale-100 hover:scale-110 filter brightness-30 w-full h-64 object-cover rounded-t-md"
+            />
+            <div class="card-description py-2 px-4 pb-5">
+              <h3 class="text-2xl font-bold mb-2">Landing Page UI</h3>
+              <p class="leading-relaxed">A landing page design by me</p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  HTML
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  Tailwind CSS
+                </button>
+                <button
+                  class="tech-stack bg-blue-500 hover:bg-blue-700 text-white rounded-md text-sm px-2 py-1"
+                >
+                  JS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="bg-black p-4 flex items-center space-x-8 fixed bottom-0 w-80 justify-center mb-8 text-white border rounded-full"
+      >
+        <a href="landing.html" class="tooltip" title="Home">
+          <button class="bg-gray-800 rounded-full p-1 hover:bg-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 14.5 8"></polyline>
+            </svg>
+          </button>
+          <span class="tooltiptext">Home</span>
+        </a>
+        <a href="about.html" class="tooltip" title="About me">
+          <button class="bg-gray-800 rounded-full p-1 hover:bg-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6"
+            >
+              <circle cx="12" cy="8" r="5"></circle>
+              <path d="M20 21a8 8 0 1 0-16 0"></path>
+            </svg>
+          </button>
+          <span class="tooltiptext">About me</span>
+        </a>
+        <a href="skills.html" class="tooltip" title="Skills">
+          <button class="bg-gray-800 rounded-full p-1 hover:bg-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-clipboard-data"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0z"
+              />
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"
+              />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"
+              />
+            </svg>
+          </button>
+          <span class="tooltiptext">Skills</span>
+        </a>
+        <a href="projects.html" class="tooltip" title="Projects">
+          <button class="bg-gray-800 rounded-full p-1 hover:bg-gray-600 active">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24  "
+              fill="currentColor"
+              class="bi bi-person-workspace"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+              />
+              <path
+                d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z"
+              />
+            </svg>
+          </button>
+          <span class="tooltiptext">Projects</span>
+        </a>
+        <a href="contact.html" class="tooltip" title="Contact me">
+          <button class="bg-gray-800 rounded-full p-1 hover:bg-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-telephone"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+              />
+            </svg>
+          </button>
+          <span class="tooltiptext">Contact me</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
