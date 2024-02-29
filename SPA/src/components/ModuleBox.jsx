@@ -1,6 +1,6 @@
 const ModuleBox = () => {
   return (
-    <div className="mx-12 md:mx-32 xl:lg:mx-48 flex flex-col xl:lg:flex-row justify-center items-center sm:justify-center sm:items-center md:justify-center md:items-center lg:justify-normal lg:items-stretch xl:justify-start xl:items-stretch gap-5 bg-white border rounded-lg w-[75%] sm:md:h-[40rem] lg:xl:h-96 px-4 pb-4 mt-10">
+    <div className="mx-12 md:mx-32 xl:lg:mx-48 flex flex-col xl:lg:flex-row justify-center items-center sm:justify-center sm:items-center md:justify-center md:items-center lg:justify-normal lg:items-stretch xl:justify-start xl:items-stretch gap-5 bg-white border rounded-lg w-[75%] h-[55rem] lg:xl:h-auto px-4 pb-4 mt-10">
       <div className="absolute left-[2rem] xl:lg:left-[11rem] xl:lg:mt-8 rounded-full border bg-white h-8 w-8 flex items-center justify-center text-black">
         4
       </div>
@@ -56,9 +56,19 @@ const ModuleBox = () => {
             </li>
           </ul>
         </div>
+        <button className="text-[#1B88F4] flex items-center">
+          Show more
+          <svg
+            className="fill-current w-4 h-4 ml-2"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+          </svg>
+        </button>
       </div>
       <div className="flex flex-col justify-between w-[17rem] items-center gap-5">
-        <div className=" bg-[#F3F9FF] text-[#074786] border rounded-b-lg flex flex-col items-center p-5 w-[85%] md:w-[50%]">
+        <div className=" bg-[#F3F9FF] text-[#074786] border rounded-b-lg flex flex-col items-center p-5 w-[85%] md:w-[50%] md:mt-5">
           <h1 className="text-3xl">9.1</h1>
           <h3>Very Good</h3>
           <img src="/4.png" alt="" />
